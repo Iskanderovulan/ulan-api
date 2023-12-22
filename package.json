@@ -1,0 +1,36 @@
+{
+  "name": "backend-final",
+  "version": "1.0.0",
+  "description": ".env представляет собой файл конфигурации, используемый для хранения переменных среды. Переменные среды — это значения, которые можно использовать в приложении для управления его поведением в зависимости от среды, в которой оно выполняется.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iskanderovulan/expressjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iskanderovulan/expressjs/issues"
+  },
+  "homepage": "https://github.com/Iskanderovulan/expressjs#readme",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.15.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.20"
+  }
+}
