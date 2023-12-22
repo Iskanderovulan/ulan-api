@@ -16,7 +16,7 @@ const verifyEmail = async (req, res) => {
     return res.redirect(process.env.FRONTEND_HOST);
   } catch (err) {
     console.error(err);
-    return res.status(500).send({ message: "Error verifying email" });
+    return res.status(500).send({ message: "Error verifying in email" });
   }
 };
 
